@@ -1,0 +1,1 @@
+# next.myfastoffer4u.com
