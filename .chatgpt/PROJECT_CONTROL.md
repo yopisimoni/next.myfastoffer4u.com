@@ -1,40 +1,22 @@
-# Project Control — NEXT MyFastOffer4U
+# Project Control — NEXT Reserved Repository
 
-## Canonical identity
-- Project: NEXT
+## Identity
 - Repository: yopisimoni/next.myfastoffer4u.com
-- Default branch: main
-- Intended domain: https://next.myfastoffer4u.com
-- Purpose: AI-focused MyFastOffer4U ecosystem project.
+- Intended domain name: https://next.myfastoffer4u.com
+- Status: RESERVED / EMPTY SCAFFOLD
+- Current canonical NEXT implementation: yopisimoni/ai-hub-last
 
-## Current state rule
-This repository is an early/scaffold project. Do NOT assume the subdomain, deployment, analytics, DNS, or production application is already configured. Verify each item before claiming it exists or works.
+## Rule
+Do not implement NEXT features in this repository unless an explicit migration is decided.
 
-## Scope boundaries
-- NEXT is NOT the UK MyFastOffer4U website.
-- NEXT is NOT MyFastOffer4U France.
-- NEXT is NOT Landlord Exit Hub.
-- NEXT is NOT MarocVows.
-- Never copy another project's analytics IDs, DNS values, forms, content, or deployment settings without explicit instruction.
+For current NEXT work:
+1. use `yopisimoni/ai-hub-last`;
+2. inspect that repository first;
+3. keep deployment/domain work separate from implementation work;
+4. do not assume this reserved repo is deployed.
 
-## Working protocol
-1. Read this file.
-2. Inspect the repo before building.
-3. Establish the intended architecture before adding infrastructure.
-4. Make one controlled change at a time.
-5. Commit.
-6. Only configure/verify the subdomain when the task reaches deployment.
-7. Test the live URL only after deployment is actually configured.
+## Boundaries
+Do not mix settings or content from MyFastOffer4U UK, France, Landlord Exit Hub, MarocVows, or other projects.
 
-## Definition of done
-For build tasks:
-- files committed;
-- build/repository state verified;
-- no cross-project assets or IDs introduced.
-
-For deployment tasks:
-- DNS verified;
-- hosting/deployment verified;
-- intended domain resolves correctly;
-- HTTPS checked;
-- live application tested.
+## Completion
+A production task is complete only after the actual deployed implementation and intended domain are verified.
